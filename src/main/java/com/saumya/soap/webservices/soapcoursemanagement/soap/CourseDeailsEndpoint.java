@@ -21,6 +21,8 @@ public class CourseDeailsEndpoint {
 		csd.setId(request.getId());
 		csd.setName("Microservices Course");
 		csd.setDescription("Wonderful learning!");
+		
+		response.setCourseDetails(csd);
 		return response;
 	}
 
